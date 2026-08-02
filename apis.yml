@@ -1,7 +1,27 @@
 aid: tapchief
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tapchief.png
 name: Tapchief
-description: Tapchief is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tapchief was an India-based online marketplace that connected businesses and
+  professionals with a vetted network of freelance experts, consultants, and
+  advisors for project-based work, on-demand consultations, and expert advice.
+  Founded in Bengaluru and backed by 500 Startups (500 Global), the platform let
+  companies discover, book, and collaborate with independent talent across
+  functions such as marketing, finance, product, and technology. Tapchief was
+  acquired by Chargebee in 2021, and the tapchief.com domain is now dormant. It
+  is tracked in the API Evangelist network as a portfolio-company lead; probing
+  found no public API, developer portal, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/tapchief/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Freelance
+- Marketplace
+- Talent
+- Consulting
+- Gig Economy
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tapchief-domain-security.yml
 - type: Website
   url: https://tapchief.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
