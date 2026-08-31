@@ -58,6 +58,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/chargebee/
+  name: Chargebee
+  x-relationship: acquired
+  x-evidence: "Tapchief was acquired by Chargebee in 2021, and the tapchief."
 - type: DomainSecurity
   url: security/tapchief-domain-security.yml
 - type: Website
